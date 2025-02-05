@@ -89,7 +89,7 @@ char * getsline(void) {
 
 Ok, so we have a call to malloc, and a call to free in the I option, when we try to inquire about acount deletion:
 
-```
+```c
 void i(){
 	char response;
   	puts("You're leaving already(Y/N)?");
@@ -105,7 +105,7 @@ void i(){
 
 So what now? Well, remember the fact that we can leave a message? We also have a call to malloc
 
-```
+```c
 void leaveMessage(){
 	puts("I only read premium member messages but you can ");
 	puts("try anyways:");
@@ -120,14 +120,14 @@ Why is this bad?
 
 Well, when we do the menu options, we actually use the "user" as an address stored, and whatToDo will call it. And remember, both user and leave a message are both using malloc, with user being able to be freed.
 
-```
+```c
 void doProcess(cmd* obj) {
 	(*obj->whatToDo)();
 }
-
+```
 and we can just call `P` since it doesn't do anything at all!
 
-```
+```c
 case 'P':
 	user->whatToDo = (void*)p;
 ```
