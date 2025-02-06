@@ -48,6 +48,10 @@ In Julius Ceasar's story, crossing the Rubicon is a significant event, which giv
 
 Let's try to input it: 
 
+picogym/crypto/ceasar/Images/image_2025-02-06_144107361.png
 
+Huzzah! It worked!
+
+Even though this challenge is fairly simple by nature, I learned a lot about the nature of ceasar ciphers and I learned how to perform a successful frequency attack. I am determined to improve my skills with every challenge!
 
 
