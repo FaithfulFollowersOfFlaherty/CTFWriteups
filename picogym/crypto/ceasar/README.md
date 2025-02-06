@@ -34,4 +34,20 @@ Now, with the frequency of each letter's appearance identified, we can associate
 
 now, to change the string to incorporate the letter t to e, we need to figure out how many letters apart the two are. I have a physical thinking process of how I determined this, which is shown here: 
 
+picogym/crypto/ceasar/Images/thought process.jpg
+
+From the image, we see that e is 15 letters away from t with counting e as 0. we then put in the ceasar cipher decoder to make a 15 letter shift, and we get the string odaeeuzsftqdgnuoazlmcveeod
+
+
+Now that we have the partially decoded string, we have to decrypt it again. We don't have to do anymore frequency attacks for this one, we can just brute force it by checking each string that appears quickly from numbers 1-25. 
+
+After some brute forcing, we notice that when we do a 12 letter shift, we get this string: 
+crossingtherubiconzaqjsscr. 
+
+In Julius Ceasar's story, crossing the Rubicon is a significant event, which gives me a sneaking suspicion that this is the correct flag. 
+
+Let's try to input it: 
+
+
+
 
