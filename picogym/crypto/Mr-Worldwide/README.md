@@ -18,3 +18,6 @@ picoCTF{KODIAK_ALASKA}.
 What makes me believe that this is the flag I'm looking for is that when I was doing some research on Mr. Worldwide, I found out that in 2012 he visited Kodiak, Alaska to go to a Walmart there. 
 
 When I input the flag in, I got this!
+
+![alt text](Imgs/Complete!.png)
+
